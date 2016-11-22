@@ -9,9 +9,8 @@ declare module "*.html" {
   export default template;
 }
 
-declare module "*.scss" {
-  const style: string;
-  export default style;
+declare module '*.scss' {
+  export const default: string;
 }
 
 declare module "*.less" {
